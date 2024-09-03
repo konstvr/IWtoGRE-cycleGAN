@@ -8,7 +8,7 @@ This Generative Adversarial Network is a first-of-its-kind machine learning mode
 ## Get started
 To synthesize GRE images you can use the proposed application which contains a user-friendly interface. Follow these steps:
 1. Download the [application's script](ui.ipynb)
-2. Download the model and unzip it in the same directory as the application
+2. Download the [model](/model) and unzip it in the same directory as the application
 
 #### CAUTION: This model has not been tested for clinical use. Use at your own risk
 #### The material in this site is distributed under CC-BY-NC-ND v 4.0 license https://creativecommons.org/licenses/by-nc-nd/4.0/
