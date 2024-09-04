@@ -8,7 +8,8 @@ This Generative Adversarial Network is a first-of-its-kind machine learning mode
 ## Get started
 To synthesize GRE images from IW (PNG or DICOM) you can use the proposed application which contains a user-friendly interface. Follow these steps:
 1. Download the [application's script](ui.ipynb) and [logo](logo.png)
-2. Download the [model](/models) and unzip it in the same directory as the application. The directory should have this structure:
+2. Download the dll_x64
+3. Download the [model](/models) and unzip it in the same directory as the application. The directory should have this structure:
    - IW-GRE/
      - ui.py
      - logo.png
@@ -17,13 +18,14 @@ To synthesize GRE images from IW (PNG or DICOM) you can use the proposed applica
        - variables/
        - keras_metadata.pb
        - saved_model.pb 
-3. Execute ui.py
+4. Execute ui.py
 
 ![image](https://github.com/user-attachments/assets/f077b5a0-58b8-48e6-8a19-2b804a8d3dd0)
 
-4. In the field "Select source folder", select the folder containing the IW images (DICOM or PNG)
-5. In the field "Select output folder", select the folder where the generated GRE images will be saved
-6. Click "Convert and Save"
+5. In the field "Select source folder", select the folder containing the IW images (DICOM or PNG)
+6. In the field "Select output folder", select the folder where the generated GRE images will be saved
+7. Click "Convert and Save"
+8. In the specified output folder you will find 2 folders: ".-tse2d1_5" and "predicted (GRE)", which contain the PNG IW and GRE images respectively.
 
 ## Troubleshooting
 1. Make sure your directory has the structure described above
