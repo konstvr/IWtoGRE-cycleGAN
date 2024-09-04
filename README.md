@@ -31,7 +31,7 @@ To synthesize GRE images from IW (PNG or DICOM) you can use the proposed applica
 ## Troubleshooting
 1. Make sure your directory has the structure described above
 2. If you are using DICOM images, try one of the following:
-   - Make sure that your .dicom files have .SequenceName="tse2d1_5". If they have a different name you can modify the line XX in [application's script](iw2gre.py)
+   - Make sure that your .dicom files have .SequenceName="tse2d1_5". If they have a different name you can modify [this line](https://github.com/konstvr/IWtoGRE-cycleGAN/blob/f57dab8c398e17828958e4318edb9278778f92e1/iw2gre.py#L185) in the [application's script](iw2gre.py)
    - Convert your .dicom images to .png before feeding them to the model
 
 ## Disclaimer
