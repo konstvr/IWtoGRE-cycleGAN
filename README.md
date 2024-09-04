@@ -11,6 +11,7 @@ To synthesize GRE images from IW (PNG or DICOM) you can use the proposed applica
 2. Download the [model](/models) and unzip it in the same directory as the application. The directory should have this structure:
    - IW-GRE/
      - ui.py
+     - logo.png
      - models/4b300e11055i/gre_generator/
        - assets/
        - variables/
@@ -25,7 +26,8 @@ To synthesize GRE images from IW (PNG or DICOM) you can use the proposed applica
 6. Click "Convert and Save"
 
 ## Disclaimer
-#### CAUTION: This model has not been tested for clinical use. Use at your own risk
+>[!CAUTION] 
+>This model has not been tested for clinical use. Use at your own risk
 #### The material in this site is distributed under CC-BY-NC-ND v 4.0 license https://creativecommons.org/licenses/by-nc-nd/4.0/
 
 ## Please cite:
