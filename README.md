@@ -25,6 +25,10 @@ To synthesize GRE images from IW (PNG or DICOM) you can use the proposed applica
 5. In the field "Select output folder", select the folder where the generated GRE images will be saved
 6. Click "Convert and Save"
 
+## Troubleshooting
+1. Make sure your directory has the structure described above
+2. If you are using DICOM images make sure that the
+
 ## Disclaimer
 >[!CAUTION] 
 >This model has not been tested for clinical use. Use at your own risk
