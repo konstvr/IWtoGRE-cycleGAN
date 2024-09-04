@@ -27,7 +27,9 @@ To synthesize GRE images from IW (PNG or DICOM) you can use the proposed applica
 
 ## Troubleshooting
 1. Make sure your directory has the structure described above
-2. If you are using DICOM images make sure that the
+2. If you are using DICOM images, try one of the following:
+   - Make sure that your .dicom files have .SequenceName="tse2d1_5". If they have a different name you can modify the line XX in [application's script](ui.ipynb)
+   - Convert your .dicom images to .png before feeding them to the model
 
 ## Disclaimer
 >[!CAUTION] 
