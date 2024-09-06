@@ -7,7 +7,10 @@
 ## About The Model
 This Generative Adversarial Network is a first-of-its-kind machine learning model that synthesizes T2* Gradient Echo (GRE) from Intermediate Weighted fat-suppressed images of the knee. It is based on the cycleGAN architecture and has been trained on a dataset consisiting of knee examinations from 820 patients (15000+ images). As recommended by the [Checklist for Artificial Intelligence in Medical Imaging (CLAIM)](https://pubs.rsna.org/page/ai/claim) this repository contains the trained model and a UI, which can be used to quickly create GRE from IW images.
 
-## Get started
+## Get started 
+> [!NOTE]
+> **NO PROGRAMMING SKILLS REQUIRED**.
+
 To synthesize GRE images from IW (PNG or DICOM) you can use the proposed application which contains a user-friendly interface. Follow these steps:
 1. Download and unzip the application from [here](https://1drv.ms/u/s!AvQ0hEwrvy_CgiQfp3nnthIjpZAp?e=qHQcNv)
 2. Download the folder [dll_x64](dll_x64)
