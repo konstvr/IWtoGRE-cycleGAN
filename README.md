@@ -1,4 +1,6 @@
-![image](https://github.com/user-attachments/assets/c7c9d55e-311d-4733-a3df-4eaca117df8c)
+<p align="center">
+    <img width="400" src="https://github.com/user-attachments/assets/1d0d21f4-d0e5-464f-bb5d-17dbf068bfa5">
+</p>
 
 # Synthetic T2*-weighted gradient echo from intermediate-weighted fat suppressed sequences of the knee 
 
