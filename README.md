@@ -40,7 +40,7 @@ To synthesize GRE images from IW (PNG or DICOM) you can use the proposed applica
    - Convert your .dicom images to .png before feeding them to the model
 
 ## For users with programming knowledge
-The repository contains the [python code](iw-me2d-EDITS.ipynb) 
+The repository contains the [python code](iw2gre-train.ipynb) that was used to train the model, as well as the [application's script](iw2gre.py). 
 
 ## Disclaimer
 >[!CAUTION] 
