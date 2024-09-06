@@ -9,11 +9,11 @@ This Generative Adversarial Network is a first-of-its-kind machine learning mode
 
 ## Get started
 To synthesize GRE images from IW (PNG or DICOM) you can use the proposed application which contains a user-friendly interface. Follow these steps:
-1. Download the [application's script](ui.ipynb) and [logo](logo.png)
+1. Download and unzip the application from [here](https://1drv.ms/u/s!AvQ0hEwrvy_CgiQfp3nnthIjpZAp?e=qHQcNv)
 2. Download the folder [dll_x64](dll_x64)
 3. Download the [model](/models) and unzip it in the same directory as the application. The directory should have this structure:
    - IW-GRE/
-     - ui.py
+     - iw2gre.exe
      - logo.png
      - dll_x64/
      - models/4b300e11055i/gre_generator/
@@ -21,7 +21,7 @@ To synthesize GRE images from IW (PNG or DICOM) you can use the proposed applica
        - variables/
        - keras_metadata.pb
        - saved_model.pb 
-4. Execute ui.py
+4. Execute iw2gre.exe
 
 ![image](https://github.com/user-attachments/assets/f077b5a0-58b8-48e6-8a19-2b804a8d3dd0)
 
