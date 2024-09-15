@@ -15,7 +15,7 @@ To synthesize GRE images from IW (PNG or DICOM) you can use the proposed applica
 1. Download and unzip the application from [here](https://1drv.ms/u/s!AvQ0hEwrvy_CgiQfp3nnthIjpZAp?e=qHQcNv)
 2. Download the folder [dll_x64](dll_x64)
 3. Download the [model](/models) and unzip it in the same directory as the application. The directory should have this structure:
-   - IW-GRE/
+   - IW-T2*/
      - iw2gre.exe
      - logo.png
      - dll_x64/
@@ -29,7 +29,7 @@ To synthesize GRE images from IW (PNG or DICOM) you can use the proposed applica
 ![image](https://github.com/user-attachments/assets/f077b5a0-58b8-48e6-8a19-2b804a8d3dd0)
 
 5. In the field "Select source folder", select the folder containing the IW images (DICOM or PNG)
-6. In the field "Select output folder", select the folder where the generated GRE images will be saved
+6. In the field "Select output folder", select the folder where the generated T2* Gradient Echo (GRE) images will be saved
 7. Click "Convert and Save"
 8. In the specified output folder you will find 2 folders: ".-tse2d1_5" and "predicted (GRE)", which contain the PNG IW and GRE images respectively.
 
