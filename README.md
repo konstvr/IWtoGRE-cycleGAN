@@ -5,7 +5,7 @@
 # Synthetic T2*-weighted gradient echo from intermediate-weighted fat suppressed sequences of the knee 
 
 ## About The Model
-This Generative Adversarial Network is a first-of-its-kind machine learning model that synthesizes T2* Gradient Echo (GRE) from Intermediate Weighted fat-suppressed images of the knee. It is based on the cycleGAN architecture and has been trained on a dataset consisiting of knee examinations from 820 patients (15000+ images). As recommended by the [Checklist for Artificial Intelligence in Medical Imaging (CLAIM)](https://pubs.rsna.org/page/ai/claim) this repository contains the trained model and a UI, which can be used to quickly create T2* from IW images.
+This Generative Adversarial Network is a first-of-its-kind machine learning model that synthesizes T2* Gradient Echo from Intermediate Weighted fat-suppressed images of the knee. It is based on the cycleGAN architecture and has been trained on a dataset consisiting of knee examinations from 820 patients (15000+ images). As recommended by the [Checklist for Artificial Intelligence in Medical Imaging (CLAIM)](https://pubs.rsna.org/page/ai/claim) this repository contains the trained model and a UI, which can be used to quickly create T2* from IW images.
 
 ## Get started 
 > [!NOTE]
@@ -29,9 +29,9 @@ To synthesize GRE images from IW (PNG or DICOM) you can use the proposed applica
 ![image](https://github.com/user-attachments/assets/f077b5a0-58b8-48e6-8a19-2b804a8d3dd0)
 
 5. In the field "Select source folder", select the folder containing the IW images (DICOM or PNG)
-6. In the field "Select output folder", select the folder where the generated T2* Gradient Echo (GRE) images will be saved
+6. In the field "Select output folder", select the folder where the generated T2* Gradient Echo images will be saved
 7. Click "Convert and Save"
-8. In the specified output folder you will find 2 folders: ".-tse2d1_5" and "predicted (GRE)", which contain the PNG IW and GRE images respectively.
+8. In the specified output folder you will find 2 folders: ".-tse2d1_5" and "predicted", which contain the PNG IW and T2* images respectively.
 
 ## Troubleshooting
 1. Make sure your directory has the structure described above
