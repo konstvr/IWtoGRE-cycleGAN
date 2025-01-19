@@ -13,25 +13,23 @@ This Generative Adversarial Network is a first-of-its-kind machine learning mode
 
 To synthesize T2*W images from IW (PNG or DICOM) you can use the proposed application which contains a user-friendly interface. Follow these steps:
 1. Download and unzip the application from [here](https://1drv.ms/u/s!Aq0pDI40ERYOaz3joa6DRpdu8LE?e=DAgPBK)
-2. Download the folder [dll_x64](dll_x64)
-3. Download the [model](/models) and unzip it in the same directory as the application. The directory should have this structure:
+2. Download the [model](/models) and unzip it in the same directory as the application. The directory should have this structure:
    - IW-T2*W/
      - iw2gre.exe
      - logo.png
-     - dll_x64/
      - models/4b300e11055i/gre_generator/
        - assets/
        - variables/
        - keras_metadata.pb
        - saved_model.pb 
-4. Execute iw2gre.exe
+3. Execute iw2gre.exe
 
 ![image](https://github.com/user-attachments/assets/f077b5a0-58b8-48e6-8a19-2b804a8d3dd0)
 
-5. In the field "Select source folder", select the folder containing the IW images (DICOM or PNG)
-6. In the field "Select output folder", select the folder where the generated T2*W Gradient Echo images will be saved
-7. Click "Convert and Save"
-8. In the specified output folder you will find 2 folders: ".-tse2d1_5" and "predicted", which contain the PNG IW and T2*W images respectively.
+4. In the field "Select source folder", select the folder containing the IW images (DICOM or PNG)
+5. In the field "Select output folder", select the folder where the generated T2*W Gradient Echo images will be saved
+6. Click "Convert and Save"
+7. In the specified output folder you will find 2 folders: ".-tse2d1_5" and "predicted", which contain the PNG IW and T2*W images respectively.
 
 ## Troubleshooting
 1. Make sure your directory has the structure described above
