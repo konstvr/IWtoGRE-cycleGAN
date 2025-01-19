@@ -22,7 +22,7 @@ To synthesize T2*W images from IW (PNG or DICOM) you can use the proposed applic
        - variables/
        - keras_metadata.pb
        - saved_model.pb 
-3. Execute iw2gre.exe
+3. Execute IWtoGRE.exe
 
 ![image](https://github.com/user-attachments/assets/eb2fef8f-ecc3-4854-9f4e-d1e147c18da1)
 
