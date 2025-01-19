@@ -45,7 +45,7 @@ The repository contains the [python code](iw2gre-train.ipynb) that was used to t
 ## Disclaimer
 >[!CAUTION] 
 >This model has not been tested for clinical use. Use at your own risk
-#### The material in this site is distributed under [MIT license](https://opensource.org/license/mit)
+#### The material in this site is distributed under the [MIT license](https://opensource.org/license/mit)
 
 ## Please cite:
 When using the code, trained model or GUI please cite "Vrettos K, Vassalou EE, Karantanas AH, Klontzas ME, Deep learning generated T2*-weighted gradient echo sequences for the evaluation of the knee, ..., Under review, 2024"
