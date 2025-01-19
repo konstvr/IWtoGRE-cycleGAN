@@ -26,8 +26,6 @@ To synthesize T2*W images from IW (PNG or DICOM) you can use the proposed applic
 
 ![image](https://github.com/user-attachments/assets/eb2fef8f-ecc3-4854-9f4e-d1e147c18da1)
 
-![image](https://github.com/user-attachments/assets/f077b5a0-58b8-48e6-8a19-2b804a8d3dd0)
-
 4. In the field "Select source folder", select the folder containing the IW images (DICOM or PNG)
 5. In the field "Select output folder", select the folder where the generated T2*W Gradient Echo images will be saved
 6. Click "Convert and Save"
