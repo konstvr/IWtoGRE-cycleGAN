@@ -24,8 +24,6 @@ To synthesize T2*W images from IW (PNG or DICOM) you can use the proposed applic
        - saved_model.pb 
 3. Execute iw2gre.exe
 
-![image](https://github.com/user-attachments/assets/7138e911-70d7-4c69-a910-ececff612764)
-
 ![image](https://github.com/user-attachments/assets/f077b5a0-58b8-48e6-8a19-2b804a8d3dd0)
 
 4. In the field "Select source folder", select the folder containing the IW images (DICOM or PNG)
