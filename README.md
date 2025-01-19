@@ -15,7 +15,7 @@ To synthesize T2*W images from IW (PNG or DICOM) you can use the proposed applic
 1. Download and unzip the application from [here](https://1drv.ms/u/s!Aq0pDI40ERYOaz3joa6DRpdu8LE?e=DAgPBK)
 2. Download the [model](/models) and unzip it in the same directory as the application. The directory should have this structure:
    - IW-T2*W/
-     - iw2gre.exe
+     - IWtoGRE.exe
      - logo.png
      - models/4b300e11055i/gre_generator/
        - assets/
