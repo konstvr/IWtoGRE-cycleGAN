@@ -1,4 +1,4 @@
-#USE THESE VERSIONS: protobuf-3.19.6 tensorboard-2.10.1 tensorboard-data-server-0.6.1 tensorflow-2.10.0 numpy 1.26.4
+#USE THESE VERSIONS: tensorflow-2.10.0 numpy 1.26.4
 
 import numpy as np
 
