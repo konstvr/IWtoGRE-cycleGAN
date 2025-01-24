@@ -1,6 +1,4 @@
 #USE THESE VERSIONS: keras-2.10.0 protobuf-3.19.6 tensorboard-2.10.1 tensorboard-data-server-0.6.1 tensorflow-2.10.0
-#If this error: pyinstaller: the term 'pyinstaller' is not revognisez as the name of a cmd ...
-# Do this: .\pyinstaller --onefile -w 'filename.py' (instead of: pyinstaller --onefile -w 'filename.py')
 
 import numpy as np
 
@@ -25,7 +23,6 @@ import pydicom.encoders.pylibjpeg
 
 
 main_path = os.path.join(os.getcwd(), "models\\4b300e11055i")
-#GRE_generator_weights = keras.models.load_model(main_path+'\\gre_generator')
 GRE_generator_weights = tf.saved_model.load(main_path+'\\gre_generator')
 
 
@@ -147,7 +144,7 @@ def generate_predictions(target_folder):
             #display results label
             result_label.config(text="Images converted successfully!")
 
-def convert_images(source_folder, target_folder):#, image_type):
+def convert_images(source_folder, target_folder):
     main_path = source_folder
 
     for root,_,exams in os.walk(main_path):
@@ -180,8 +177,8 @@ def select_output_folder():
 def convert_and_save():
     source_folder = folder_path_label.cget("text")
     target_folder = save_path_label.cget("text")
-    if source_folder and target_folder: #and image_type:
-        convert_images(source_folder, target_folder)#, image_type)
+    if source_folder and target_folder:
+        convert_images(source_folder, target_folder)
     else:
         result_label.config(text="Please provide all required information.")
         
