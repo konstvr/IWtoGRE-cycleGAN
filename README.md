@@ -11,6 +11,11 @@ This Generative Adversarial Network is a first-of-its-kind machine learning mode
 > [!NOTE]
 > **NO PROGRAMMING SKILLS REQUIRED**.
 
+### Webapp
+An online demo of our model can be found [here](http://134.122.48.240/home)
+
+### Downloadable app
+
 To synthesize T2*W images from IW (PNG or DICOM) you can use the proposed application which contains a user-friendly interface. Follow these steps:
 1. Download and unzip the application from [here](https://www.dropbox.com/scl/fo/1w580c9vc95a0gjueb075/AGWecQ02kEJ4c6huiWEZ75I?rlkey=jy0ucugphk2wtp7kxcj1ey6jy&st=jdi9aypx&dl=0)
 2. Download the [model](/models) and unzip it in the same directory as the application. The directory should have this structure:
