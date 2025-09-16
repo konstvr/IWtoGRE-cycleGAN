@@ -11,8 +11,8 @@ This Generative Adversarial Network is a first-of-its-kind machine learning mode
 > [!NOTE]
 > **NO PROGRAMMING SKILLS REQUIRED**.
 
-### Webapp
-An online demo of our model can be found [here](http://134.122.48.240/home)
+<!--### Webapp
+An online demo of our model can be found [here](http://134.122.48.240/home)-->
 
 ### Downloadable app
 
